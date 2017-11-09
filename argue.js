@@ -1,3 +1,6 @@
+function persistence(num) {
+    let timeMult = 0;
+    while (num > 9) {
         num = num.toString().split('').map(Number)
                 .reduce(function(product, value) {
                     return value * product;
