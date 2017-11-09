@@ -1,3 +1,4 @@
+//This is a test !
 function persistence(num) {
     let timeMult = 0;
     while (num > 9) {
